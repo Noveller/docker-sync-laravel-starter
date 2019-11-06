@@ -1,0 +1,800 @@
+          ok  Starting rsync for sync appcode-rsync-sync
+          ok  appcode-rsync-sync container still running
+          ok  appcode-rsync-sync: starting initial sync of /Users/user/learning/laravel/
+     command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+          ok  Synced /Users/user/learning/laravel/
+      output  
+     success  Rsync server started
+     command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+          ok  Synced /Users/user/learning/laravel/
+      output  
+          ok  Cli mode is auto, selecting .. 
+          ok  .. docker-sync 
+     success  Starting to watch /Users/user/learning/laravel/ - Press CTRL-C to stop
+     command  fswatch -orIE --event AttributeModified --event Created --event Link --event MovedFrom --event MovedTo --event Renamed --event Removed --event Updated '/Users/user/learning/laravel/'  | xargs -I -n1 docker-sync sync -n appcode-rsync-sync --config='/Users/user/learning/laravel/docker-sync.yml'
+[2019-11-05 16:53:51 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 16:53:51 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 16:53:51 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 16:56:02 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 16:56:06 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 16:56:06 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 16:56:42 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 16:56:42 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 16:56:42 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 16:56:46 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 16:56:46 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 16:56:46 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 16:56:49 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 16:56:49 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 16:56:49 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 16:57:01 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 16:57:01 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 16:57:01 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:07:59 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:08:00 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:08:00 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:08:00 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:08:00 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:08:00 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:08:19 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:08:19 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:08:19 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:08:22 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:08:23 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:08:23 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:08:49 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:08:49 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:08:49 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:08:50 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:08:50 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:08:50 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:09:39 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:09:39 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:09:39 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:09:50 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:09:50 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:09:50 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:09:50 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:09:50 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:09:50 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:09:51 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:09:51 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:09:51 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:09:57 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:09:57 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:09:57 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:10:29 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:10:29 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:10:29 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:10:50 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:10:50 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:10:50 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:10:58 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:10:58 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:10:58 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:11:07 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:11:07 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:11:07 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:11:11 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:11:11 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:11:11 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:11:14 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:11:14 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:11:14 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:11:23 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:11:23 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:11:23 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:13:00 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:13:00 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:13:00 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:14:31 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:14:31 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:14:31 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:14:33 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:14:34 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:14:34 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:15:56 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:15:57 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:15:57 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:16:15 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:16:15 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:16:15 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:16:33 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:16:33 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:16:33 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:16:39 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:16:39 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:16:39 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:17:00 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:17:00 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:17:00 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:17:01 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:17:01 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:17:01 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:17:05 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:17:05 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:17:05 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:17:07 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:17:07 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:17:07 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:17:08 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:17:08 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:17:08 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:17:36 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:17:36 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:17:36 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:17:46 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:17:46 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:17:46 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:18:18 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:18:18 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:18:18 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:18:28 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:18:28 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:18:28 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:18:29 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:18:29 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:18:29 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:18:30 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:18:30 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:18:30 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:18:44 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:18:44 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 12
+[2019-11-05 17:18:44 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:18:46 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:18:46 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:18:46 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:18:47 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:18:47 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:18:47 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:18:48 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:18:48 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:18:48 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:18:49 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:18:49 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:18:49 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:18:50 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:18:50 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:18:50 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:18:51 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:18:51 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:18:51 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:18:52 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:18:52 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:18:52 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:18:53 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:18:53 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:18:53 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:18:54 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:18:54 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:18:54 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:18:55 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:18:55 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:18:55 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:18:56 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:18:56 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:18:56 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:18:57 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:18:57 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:18:57 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:18:58 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:18:58 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:18:58 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:18:59 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:18:59 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:18:59 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:19:00 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:19:00 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:19:00 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:20:03 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:20:03 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:20:03 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:20:05 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:20:05 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:20:05 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:20:06 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:20:06 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:20:06 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:20:18 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:20:18 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:20:18 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:20:19 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:20:19 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:20:19 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:20:33 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:20:33 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:20:33 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:20:35 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:20:35 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:20:35 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:20:41 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:20:41 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:20:41 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:21:41 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:21:41 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:21:41 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:21:51 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:21:51 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:21:51 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:21:52 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:21:52 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:21:52 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:21:53 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:21:53 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:21:53 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:21:54 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:21:54 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:21:54 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:22:07 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:22:08 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 12
+[2019-11-05 17:22:08 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:22:10 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:22:10 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:22:10 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:22:12 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:22:12 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:22:12 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:22:13 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:22:13 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-05 17:22:13 +0200] Sync appcode-rsync-sync       message  
+[2019-11-05 17:23:06 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:23:06 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:23:06 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:23:07 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:23:07 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:23:07 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:23:16 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:23:16 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:23:16 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 17:29:46 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 17:29:46 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 17:29:46 +0200] Sync appcode-rsync-sync        output  
+[2019-11-05 18:10:43 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-05 18:10:43 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-05 18:10:43 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 09:17:13 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:17:15 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 09:17:15 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 09:25:35 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:25:36 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 09:25:36 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 09:25:43 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:25:44 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 09:25:44 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 09:38:11 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:38:12 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 09:38:12 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 09:38:12 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:38:12 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 09:38:12 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 09:38:13 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:38:13 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 09:38:13 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 09:38:16 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:38:16 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:38:16 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:38:20 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:38:20 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:38:20 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:38:26 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:38:26 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:38:26 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:38:30 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:38:30 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:38:30 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:38:35 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:38:35 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:38:35 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:38:46 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:38:46 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:38:46 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:38:51 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:38:51 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:38:51 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:38:52 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:38:52 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:38:52 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:38:53 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:38:53 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:38:53 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:38:54 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:38:54 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:38:54 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:38:55 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:38:55 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:38:55 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:38:57 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:38:57 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:38:57 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:38:58 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:38:58 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:38:58 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:39:03 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:39:03 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:39:03 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:39:04 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:39:04 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:39:04 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:39:05 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:39:05 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:39:05 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:39:07 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:39:07 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:39:07 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:39:40 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:39:40 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:39:40 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:39:47 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:39:47 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:39:47 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:41:20 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:41:20 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:41:20 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:42:31 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:42:31 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:42:31 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:42:41 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:42:41 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:42:41 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:42:42 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:42:42 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:42:42 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:42:49 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:42:49 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:42:49 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:43:45 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:43:45 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:43:45 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:44:27 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:44:27 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:44:27 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:44:38 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:44:38 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:44:38 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:44:39 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:44:39 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:44:39 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:44:42 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:44:42 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:44:42 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:44:45 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:44:45 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:44:45 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:44:51 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:44:51 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:44:51 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:44:52 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:44:52 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:44:52 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:44:58 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:44:58 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:44:58 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:44:59 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:44:59 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:44:59 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 09:45:15 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 09:45:15 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 09:45:15 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 10:07:44 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:07:45 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 10:07:45 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 10:43:18 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:43:18 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 10:43:18 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 10:43:40 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:43:40 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 10:43:40 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 10:43:50 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:43:50 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 10:43:50 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 10:46:30 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:46:31 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 10:46:31 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 10:46:35 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:46:35 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 10:46:35 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 10:47:43 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:47:44 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 10:47:44 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 10:50:46 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:50:46 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 10:50:46 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 10:51:20 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:51:20 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 10:51:20 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 10:51:26 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:51:26 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 10:51:26 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 10:51:32 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:51:32 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 10:51:32 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 10:51:41 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:51:41 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 10:51:41 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 10:51:42 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:51:42 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 10:51:42 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 10:51:46 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:51:46 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 10:51:46 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 10:51:47 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:51:47 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 10:51:47 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 10:51:54 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:51:54 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 10:51:54 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 10:51:57 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:51:57 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 10:51:57 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 10:51:58 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:51:58 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 10:51:58 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 10:52:04 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:52:04 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 10:52:04 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 10:52:35 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:52:35 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 10:52:35 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 10:52:46 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:52:46 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 10:52:46 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 10:52:51 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:52:51 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 10:52:51 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 10:52:54 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:52:54 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 10:52:54 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 10:53:17 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:53:17 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 10:53:17 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 10:53:25 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:53:25 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 10:53:25 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 10:53:53 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:53:53 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 10:53:53 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 10:57:27 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 10:57:27 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 10:57:27 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:00:50 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:00:50 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:00:50 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:00:51 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:00:51 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:00:51 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:02:28 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:02:28 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:02:28 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:02:49 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:02:49 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:02:49 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:02:52 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:02:52 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:02:52 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:03:05 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:03:05 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:03:05 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:03:07 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:03:07 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:03:07 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:03:10 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:03:10 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:03:10 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:03:19 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:03:19 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:03:19 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:03:22 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:03:22 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:03:22 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:03:24 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:03:24 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:03:24 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:03:46 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:03:46 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:03:46 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:03:53 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:03:53 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:03:53 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:03:54 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:03:54 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:03:54 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:03:55 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:03:55 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:03:55 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:03:56 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:03:56 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:03:56 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:03:57 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:03:57 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:03:57 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:03:58 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:03:58 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:03:58 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:03:59 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:03:59 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:03:59 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:03:59 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:00 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:00 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:00 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:00 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:00 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:01 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:01 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:01 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:02 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:02 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:02 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:03 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:03 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:03 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:04 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:04 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:04 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:05 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:05 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:05 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:06 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:06 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:06 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:06 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:06 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:06 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:07 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:07 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:07 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:08 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:08 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:08 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:09 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:09 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:09 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:10 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:10 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:10 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:10 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:10 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:10 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:11 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:11 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:11 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:12 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:12 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:12 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:13 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:13 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:13 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:14 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:14 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:14 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:15 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:15 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:15 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:15 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:15 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:15 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:16 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:16 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:16 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:17 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:17 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:17 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:19 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:19 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:19 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:20 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:20 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:20 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:27 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:27 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:27 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:28 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:28 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:28 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:29 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:29 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:29 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:04:30 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:04:30 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:04:30 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:05:26 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:05:26 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:05:26 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:05:42 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:05:42 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:05:42 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:05:56 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:05:56 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:05:56 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:05:57 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:05:57 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:05:57 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:01 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:01 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:01 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:02 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:02 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:02 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:03 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:03 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:03 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:04 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:04 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:04 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:05 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:05 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:05 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:06 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:06 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:06 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:07 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:07 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:07 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:08 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:08 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:08 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:09 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:09 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:09 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:10 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:10 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:10 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:11 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:11 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:11 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:12 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:12 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:12 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:13 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:13 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:13 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:18 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:18 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:18 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:29 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:29 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:29 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:37 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:37 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:37 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:38 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:38 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:38 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:39 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:39 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:39 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:40 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:40 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:40 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:44 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:44 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:44 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:45 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:45 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:45 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:46 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:46 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:46 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:47 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:47 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:47 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:48 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:48 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:48 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:54 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:54 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:54 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:06:55 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:06:55 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:06:55 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:07:02 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:07:02 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:07:02 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:07:13 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:07:13 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:07:13 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:07:14 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:07:14 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:07:14 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:07:18 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:07:18 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:07:18 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:08:02 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:08:02 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:08:02 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:08:18 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:08:18 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:08:18 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:08:18 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:08:18 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:08:18 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:08:19 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:08:19 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:08:19 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:08:20 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:08:20 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:08:20 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:08:20 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:08:20 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:08:20 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:08:21 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:08:21 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:08:21 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:08:21 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:08:21 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:08:21 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:08:22 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:08:22 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:08:22 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:08:23 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:08:23 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:08:23 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:08:23 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:08:23 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:08:23 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:08:24 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:08:24 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:08:24 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:08:25 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:08:25 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:08:25 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:08:26 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:08:26 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:08:26 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:32:23 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:32:23 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:32:23 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:32:32 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:32:32 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:32:32 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:32:33 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:32:33 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:32:33 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:32:51 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:32:51 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:32:51 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:33:12 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:33:12 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:33:12 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:33:40 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:33:40 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:33:40 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:33:45 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:33:45 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:33:45 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:33:46 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:33:46 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:33:46 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:33:56 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:33:56 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:33:56 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:34:08 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:34:08 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:34:08 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:34:26 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:34:26 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 11:34:26 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 11:35:12 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:35:12 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 11:35:12 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 11:35:16 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:35:16 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 11:35:16 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 11:35:20 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:35:20 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 11:35:20 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 11:35:32 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:35:32 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:35:32 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:35:39 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:35:39 +0200] Sync appcode-rsync-sync         error  Error starting sync, exit code 10
+[2019-11-06 11:35:39 +0200] Sync appcode-rsync-sync       message  
+[2019-11-06 11:35:53 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:35:55 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 11:35:55 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 11:35:55 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:35:56 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 11:35:56 +0200] Sync appcode-rsync-sync        output  
+[2019-11-06 11:50:05 +0200] Sync appcode-rsync-sync       command  rsync -ap '/Users/user/learning/laravel/' rsync://127.0.0.1:10872/volume
+[2019-11-06 11:50:06 +0200] Sync appcode-rsync-sync            ok  Synced /Users/user/learning/laravel/
+[2019-11-06 11:50:06 +0200] Sync appcode-rsync-sync        output  

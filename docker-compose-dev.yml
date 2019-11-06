@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+  fpm:
+    build:
+      context: .
+      dockerfile: docker/Fpm.Dockerfile
+    volumes:
+      - appcode-rsync-sync:/var/www/laravel-docker
+    links:
+      - mysql
+
+
